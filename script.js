@@ -4,7 +4,7 @@ const textInput = document.getElementById('text-input');
 const summaryOutput = document.getElementById('summary-output');
 
 // The Hugging Face API URL for the summarization model
-const API_URL = "https://api-inference.huggingface.co/models/facebook/bart-large-cnn";
+const API_URL = "https://router.huggingface.co/hf-inference/models/facebook/bart-large-cnn";
 
 summarizeBtn.addEventListener('click', async () => {
     const textToSummarize = textInput.value;
